@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dance Academy Registration</title>
+    </head>
+
+    <body style="background-color: lightsalmon; text-align: center;">
+
+    <h2>Dance Academy Registration Form</h2>
+
+    <form style="display: inline-block; text-align: left; padding: 20px; border: 2px solid black; background-color: white;">
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" required><br><br>
+<div>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+</div>
+        <label>Phone Number:</label><br>
+        <input type="text" name="phone" required><br><br>
+
+        <label>Type of Dance:</label><br>
+        <select name="dance_type">
+            <option value="Classical">Classical</option>
+            <option value="Western">Western</option>
+            <option value="Hip-Hop">Hip-Hop</option>
+            <option value="Folk">Folk</option>
+            <option value="Bharatanatyam">Bharatanatyam</option>
+        </select><br><br>
+
+        <label>Experience (Years):</label><br>
+        <input type="number" name="experience" min="0"><br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
